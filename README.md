@@ -5,16 +5,35 @@
 
 Este proyecto es una aplicación de Visión por Computadora que traduce señas dinámicas del Lenguaje de Señas Americano (ASL) a texto en tiempo real. Utiliza la librería MediaPipe de Google para la detección precisa de los puntos de la mano y una Red Neuronal Recurrente (GRU) para interpretar secuencias de movimiento, permitiendo el reconocimiento de gestos complejos más allá de letras estáticas.
 
-*(Aquí puedes insertar un GIF o una captura de pantalla de tu proyecto en acción)*
-
-![Demo del Proyecto](https://via.placeholder.com/600x400.png?text=Inserta+un+GIF+o+Screenshot+aquí)
-
 ## ✨ Características Principales
 
-- **Detección en Tiempo Real:** Captura y procesa el video de la cámara web con baja latencia.
-- **Reconocimiento de Señas Dinámicas:** A diferencia de modelos que solo ven imágenes estáticas, la arquitectura GRU analiza la secuencia de movimientos para interpretar gestos como las letras 'J', 'Z' o palabras cortas.
-- **Extensible:** El sistema está diseñado para que se puedan añadir nuevas señas fácilmente, simplemente recolectando nuevos datos de entrenamiento.
-- **Arquitectura Modular:** El código está organizado en clases siguiendo principios de POO para la recolección de datos, el entrenamiento y la inferencia, facilitando su mantenimiento y escalabilidad.
+- **🎯 Detección en Tiempo Real:** Captura y procesa el video de la cámara web con baja latencia
+- **🔄 Reconocimiento de Señas Dinámicas:** Analiza secuencias de movimientos para interpretar gestos complejos
+- **🎨 Interfaz Visual Moderna:** Nueva interfaz profesional con overlays, historial y barras de confianza
+- **📊 Monitoreo en Tiempo Real:** Panel de estado, historial de predicciones y consejos visuales
+- **⚡ Efectos Visuales:** Animaciones de glow, flash en nuevas predicciones y indicadores de calidad
+- **🎮 Controles Intuitivos:** Teclado para reiniciar, capturar estado y salir
+- **📈 Extensible:** Sistema diseñado para añadir nuevas señas fácilmente
+
+## 🎨 Nuevas Características Visuales (v2.0)
+
+### 🖥️ Interfaz Moderna
+- **Panel Principal:** Predicción actual con efectos de glow y sombras
+- **Historial Visual:** Últimas 5 predicciones con desvanecimiento gradual
+- **Barras de Confianza:** Indicadores visuales de la certeza de las predicciones
+- **Panel de Estado:** Monitoreo del buffer, umbral y timestamp
+- **Panel de Consejos:** Tips de uso y calidad de detección en tiempo real
+
+### ✨ Efectos Visuales
+- **Flash de Predicción:** Efecto luminoso cuando se detecta una nueva seña
+- **Glow Dinámico:** Resplandor que se intensifica con alta confianza
+- **Degradado de Historial:** Las predicciones pasadas se desvanecen gradualmente
+- **Indicadores de Color:** Verde para éxito, amarillo para advertencia, rojo para error
+
+### 🎮 Controles Mejorados
+- **Q:** Salir del programa
+- **R:** Reiniciar buffer de secuencias
+- **ESPACIO:** Mostrar información detallada del estado actual
 
 ## 🛠️ Tecnologías Utilizadas
 

@@ -1,0 +1,95 @@
+{
+  "fecha_creacion": "2025-07-04T09:18:11.044946",
+  "plan_recoleccion": {
+    "objetivo": "Balancear dataset para mejor distinción estáticas/dinámicas",
+    "meta_total": 2000,
+    "balance_objetivo": {
+      "estaticas": "50%",
+      "dinamicas": "30%",
+      "frases": "20%"
+    },
+    "recoleccion_necesaria": {
+      "estaticas": 40,
+      "dinamicas": 520,
+      "frases": 240
+    },
+    "prioridades": [
+      {
+        "tipo": "CRÍTICO",
+        "items": [
+          "J",
+          "Z",
+          "Ñ",
+          "RR"
+        ],
+        "objetivo_por_item": 100,
+        "razon": "Señas dinámicas básicas del alfabeto"
+      },
+      {
+        "tipo": "ALTO",
+        "items": [
+          "ADIÓS",
+          "SÍ",
+          "NO",
+          "CÓMO"
+        ],
+        "objetivo_por_item": 80,
+        "razon": "Palabras dinámicas de uso común"
+      },
+      {
+        "tipo": "MEDIO",
+        "items": [
+          "QUÉ",
+          "DÓNDE",
+          "CUÁNDO",
+          "LL"
+        ],
+        "objetivo_por_item": 60,
+        "razon": "Expansión de vocabulario dinámico"
+      },
+      {
+        "tipo": "BAJO",
+        "items": [
+          "100",
+          "1000"
+        ],
+        "objetivo_por_item": 40,
+        "razon": "Números con componente dinámico"
+      }
+    ],
+    "estrategias": []
+  },
+  "protocolo": {
+    "configuracion_camara": {
+      "fps": 30,
+      "resolucion": "1280x720",
+      "iluminacion": "Uniforme, sin sombras",
+      "fondo": "Contrastante, preferiblemente oscuro",
+      "distancia": "1-1.5 metros de la cámara"
+    },
+    "duracion_secuencias": {
+      "estaticas": "2-3 segundos (hold estable)",
+      "dinamicas": "3-5 segundos (movimiento completo)",
+      "frases": "4-6 segundos (expresión natural)"
+    },
+    "variaciones_requeridas": {
+      "personas": "Mínimo 3 personas diferentes por seña",
+      "velocidades": "Lenta, normal, rápida",
+      "amplitudes": "Movimiento pequeño, normal, amplio",
+      "angulos": "Frontal, semi-lateral (±30°)",
+      "iluminacion": "Buena, regular, tenue"
+    },
+    "criterios_calidad": {
+      "manos_visibles": "100% del tiempo",
+      "landmarks_detectados": ">95% de frames",
+      "movimiento_completo": "Inicio, desarrollo, fin",
+      "estabilidad_inicial": "0.5s inicial estable para dinámicas",
+      "estabilidad_final": "0.5s final estable para dinámicas"
+    }
+  },
+  "progreso": {
+    "completado": false,
+    "items_recolectados": [],
+    "ultima_actualizacion": null
+  }
+}
